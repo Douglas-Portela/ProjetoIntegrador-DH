@@ -11,6 +11,30 @@ h1, h2 {
     text-align: center;
 }
 
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    align-items: left;
+    line-height: 1.6;
+}
+
+.title{ 
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: -20px;
+}
+
+
+.input label{
+    font-size: 20px;
+    font-weight: bold;
+}
+
 .button {
     display: flex;
     flex-direction: row;
@@ -22,7 +46,7 @@ h1, h2 {
 
 form {
     margin: 0 auto;
-    width: 400px;
+    width: 800px;
     padding: 1em;
     border: 1px solid #CCC;
     border-radius: 1em;
